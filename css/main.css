@@ -1,0 +1,208 @@
+/*This is the generalized style sheet for the resurgens sites // tem[plate */
+*{
+    margin: 0;
+    padding: 0 ;
+    border: 0 ;
+}
+
+html{
+    overflow-x: hidden;
+    font-family: "Roboto Material Black", monospace;
+    clear-after: bottom;
+    background:whitesmoke;
+    margin: 0;
+
+    color: #1f2833;
+    }
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+h1{
+    font-size: 6em;
+    font-style: italic;
+    margin:1%;
+    font-variant-caps: all-small-caps;}
+h2, h3 {
+    color:#444444;
+    font-style: italic;
+margin:1%;
+font-variant-caps: all-small-caps;}
+
+header{
+
+    padding: auto;
+    margin: 0;
+    text-align: justify;
+}
+
+
+
+nav {
+    overflow: hidden;
+    background-color: #1f2833;
+    display: compact;
+    margin-top: 0;
+}
+nav a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 2em;
+    border: 1px solid #bbb;
+    margin-top:0.2em;
+  width: 1%;
+}
+nav a:hover{
+    color:#332F61;
+    background-color: whitesmoke;
+}
+.zeal{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 1em;
+    margin-bottom: 0.3em;
+
+
+}
+
+.hero {
+    padding-bottom: 30px;
+    justify-content: center;
+    width: 100% !important;
+    border: 0;
+}
+
+.hero > img{
+    width: 100% ;
+    margin-left: 0;
+
+}
+/*Style Font Awesome Icons*/
+
+/*Link Styling*/
+
+main{
+    height: 110em;
+    width:70%;
+    float: left;
+    clear-after: bottom;
+    color: white;
+    outline: #444444 5px double;
+}
+article{
+  height: 110em;
+  display:block;
+}
+table{
+  margin: 2em;
+  border-spacing: 0;
+  border: 2px solid yellow;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.16);
+  border-radius: 2px;
+
+}
+th{
+  background: lightskyblue;
+  color: #fff;
+  border: 2px solid yellow;
+  padding-left: .3em;
+  padding-right: .3em;
+}
+td{
+    border: 1px solid yellow;
+}
+#art1{
+    background-color: darkslateblue;
+    padding:3%;
+    margin:1%;
+    height: 20em;
+}
+#art2{
+    background-color: darkgoldenrod;
+    padding:3%;
+    margin:1%;
+    height: 20em;
+}
+#art3{
+   background-color: lightskyblue;
+    padding: 3%;
+    margin: 1%;
+    height: 12.5em;
+}
+aside {
+    width:30%;
+    float: right;
+    outline: #1f2833 double 1px;
+    height: 100%;
+    background-color: #bbbbbb;
+}
+aside section h4{
+    font-size: 1.2em;
+    margin: 2%;
+    padding: 2%;
+}
+#archive{
+    background-color: lightsalmon;
+    color: #1f2833;
+}
+aside section img{
+    padding: 10%;
+    width: 85%;
+    max-height: border-box;
+    background-color: #bbbbbb;
+    margin-bottom: 5%;
+}
+#social{
+    background-color: darkslategray;
+    color:whitesmoke;
+    height: 18em;
+}
+footer{
+  display: block;
+    clear:both;
+    height:10%;
+    width:100%;
+    outline: #332F61 1px solid;
+    margin-top: 3em;
+    padding: 1em;
+    background-color: #332F61;
+    color:whitesmoke;
+}
+footer ul {
+    display: inline-flex;
+}
+footer ul li {
+box-sizing: border-box;
+    list-style: none;
+    margin: 1em;
+    width: 15%;
+}
+footer ul li a {
+    color:lightslategray;
+    justify-self: auto;
+}
+footer ul li a:hover {
+    color:white;
+    justify-self: auto;
+    pointer-events: stroke;
+}
+footer ul li a:active {
+    color:whitesmoke;
+    justify-self: auto;
+    pointer-events: bounding-box;
+}
+footer ul li a:visited {
+    color:orange;
+    justify-self: auto;
+}
+/* table */
+
+/* Responsive declarations */
