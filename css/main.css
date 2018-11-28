@@ -73,6 +73,10 @@ nav a:hover{
 
 }
 
+#spine{
+	width: 462px;
+		margin: 50px 200px;
+}
 .hero {
     padding-bottom: 30px;
     justify-content: center;
@@ -98,7 +102,7 @@ main{
     outline: #444444 5px double;
 }
 article{
-  height: 110em;
+  height: 160em;
   display:block;
 }
 table{
@@ -116,6 +120,11 @@ th{
   padding-left: .3em;
   padding-right: .3em;
 }
+
+
+#vid{
+	margin: 10px auto;
+}
 td{
     border: 1px solid yellow;
 }
@@ -129,13 +138,13 @@ td{
     background-color: darkgoldenrod;
     padding:3%;
     margin:1%;
-    height: 20em;
+    height: 35em;
 }
 #art3{
    background-color: lightskyblue;
     padding: 3%;
     margin: 1%;
-    height: 12.5em;
+    height: 35em;
 }
 aside {
     width:30%;
