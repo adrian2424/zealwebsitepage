@@ -75,7 +75,7 @@ nav a:hover{
 
 #spine{
 	width: 462px;
-		margin: 50px 200px;
+	margin: 50px 200px;
 }
 .hero {
     padding-bottom: 30px;
@@ -135,17 +135,32 @@ td{
     margin:1%;
     height: 20em;
 }
+#art1 h4{
+	margin: 0 0 1em 0;
+	font-size: 2em;
+}
+
+
+
 #art2{
     background-color: darkgoldenrod;
     padding:3%;
     margin:1%;
     height: 35em;
 }
+#art2 h4{
+	margin: 0 0 1em 0;
+	font-size: 2em;
+}
 #art3{
    background-color: lightskyblue;
     padding: 3%;
     margin: 1%;
     height: 35em;
+}
+#art3 h4{
+	margin: 0 0 1em 0;
+	font-size: 2em;
 }
 aside {
     width:30%;
@@ -215,4 +230,72 @@ footer ul li a:visited {
 }
 /* table */
 
-/* Responsive declarations */
+/*Media Queries */
+
+
+/*Tablet */
+@media only screen and (max-width: 768px) {
+	main{
+		width:100%;
+		
+	}
+	aside {
+		
+		width:100%;
+	}
+	#spine {
+		margin: 1em 0 0 0 ;
+	}
+	#vid{
+		margin: 1em 0 0 0;
+	}
+	nav a {
+		width: 100%;
+	}
+	
+	h1 {
+		font-size: 3em;
+	}
+	footer ul li a {
+		width: 100%;
+		
+	}
+		
+}
+
+/*Phone */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	
+	#spine {
+		height: 18.750em;
+		width: 25em ;
+	}
+	iframe {
+		width: 25em;
+		height:18.750em; 	
+	}
+	h1{
+		font-size: 2em;
+	}
+	#art1 h4{
+	margin: 0;
+	font-size: 1.2em;
+	}
+	#art2 h4{
+	margin: 0;
+	font-size: 1.2em;
+	}
+	#art3 h4{
+	margin: 0;
+	font-size: 1.2em;
+	}
+  footer ul li a{
+		width: 100%;
+		display: block;
+	}
+		
+}
